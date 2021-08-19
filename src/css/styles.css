@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+:root {
+    --background: #FAFAFA;
+    --search-background: #EEEEEE;
+    --color: #202020;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    color: var(--color);
+    background-color: var(--background);
+}
+
+form {
+    border-radius: 10px;
+    width: 210px;
+    padding: 10px 0px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--search-background);
+}
+
+input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: var(--color);
+}
+
+button {
+    color: rgb(131, 131, 131);
+    background-color: transparent;
+    border: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.info {
+    text-align: center;
+}

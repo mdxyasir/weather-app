@@ -1,0 +1,14 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A simple weather app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Yasir",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.1"
+  }
+}
